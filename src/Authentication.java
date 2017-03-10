@@ -25,7 +25,7 @@ public class Authentication {
 		jp.add(jpf);
 		jp.add(jb);
 		jf.add(jp);
-		jf.setDefaultCloseOperation(jf.EXIT_ON_CLOSE);
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jf.pack();
 		jf.setVisible(true);
 	}
