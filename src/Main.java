@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Main {
-	public void start(String[] args) {
+	public void start() {
 		JFrame mainMenu = new JFrame("The Quadratic Solver");
 		JPanel panel = new JPanel();
 		mainMenu.add(panel);
