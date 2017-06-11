@@ -12,7 +12,7 @@ public class Quadratic {
 	protected int[] solve() {
 		int[] returnStatement = new int[2];
 		if(Math.sqrt(a*a - 4*a*c) % 1 == 0) {
-			
+			returnStatement[0] = (int) (b*(-1) - Math.sqrt(a*a - 4*a*c)) / 2 *a;
 		}
 		return returnStatement;
 	}

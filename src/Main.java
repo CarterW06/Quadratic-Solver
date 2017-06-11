@@ -29,7 +29,7 @@ public class Main {
 		});
 	}
 
-	private int initializeOptions() {
+	private void initializeOptions() {
 		cip.add(cil);
 		cip.add(nq);
 		cip.add(nir);

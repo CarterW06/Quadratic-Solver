@@ -3,7 +3,7 @@ import java.awt.event.*;
 
 public class Authentication {
 	static char[] c = {'c', 'w', 'e', 'i', 's', 's'};
-	
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		JPasswordField jpf = new JPasswordField(30);
 		JPanel jp = new JPanel();
@@ -12,7 +12,7 @@ public class Authentication {
 		jb.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(jpf.getPassword() == c) {
+				if(jpf.getText().equals("cweiss")) {
 					new Main().start();
 					jf.setVisible(false);
 				} else {
