@@ -12,7 +12,7 @@ public class Authentication {
 		jb.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(jpf.getText().equals("cweiss")) {
+				if(jpf.getText().equals("primeNumbers")) {
 					new Main().start();
 					jf.setVisible(false);
 				} else {
